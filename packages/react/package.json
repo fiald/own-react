@@ -1,0 +1,27 @@
+{
+  "name": "@own-react/react",
+  "version": "0.0.1",
+  "author": "Famiev Evgeny",
+  "license": "ISC",
+  "main": "src/index.ts",
+  "scripts": {
+    "dev": "webpack --watch --mode development --config webpack.config.js",
+    "build": "webpack --progress --mode production --config webpack.config.js"
+  },
+  "devDependencies": {
+    "@babel/core": "^7.6.2",
+    "@babel/preset-env": "^7.6.2",
+    "awesome-typescript-loader": "^5.2.1",
+    "core-js": "^3.2.1",
+    "prettier": "^1.18.2",
+    "regenerator-runtime": "^0.13.3",
+    "tslint": "^5.20.0",
+    "tslint-config-airbnb": "^5.11.2",
+    "tslint-config-prettier": "^1.18.0",
+    "tslint-loader": "^3.5.4",
+    "tslint-plugin-prettier": "^2.0.1",
+    "typescript": "^3.6.3",
+    "webpack": "^4.41.0",
+    "webpack-cli": "^3.3.9"
+  }
+}

@@ -1,0 +1,11 @@
+{
+  "name": "own-react",
+  "version": "1.0.0",
+  "private": true,
+  "author": "Famiev",
+  "license": "ISC",
+  "devDependencies": {
+    "lerna": "^3.16.4"
+  },
+  "workspaces": ["packages/*"]
+}
