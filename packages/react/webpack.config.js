@@ -22,7 +22,7 @@ module.exports = {
         test: /\.(ts|tsx)$/,
         enforce: 'pre',
         loader: 'tslint-loader',
-        options: { fix: true }
+        options: { fix: true, configFile: '../../tslint.json' }
       },
       {
         test: /\.(ts|tsx)$/,
